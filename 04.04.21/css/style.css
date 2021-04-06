@@ -1,0 +1,127 @@
+body {
+    background-image: url(/img/intro.jpg);
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    max-height: 100vh;
+    max-width: 100%;
+    position: absolute;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+.logo {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    line-height: 50px;
+}
+
+.description {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 25px;
+    padding-left: 465px;
+    padding-right: 465px;
+    
+}
+
+.autorization {
+   background-color: #2C405A;
+   position: fixed;
+   height: 310px;
+   width: 410px;
+   left: 480px;
+   border-radius: 10px;
+   text-align: center;
+   max-width: 100%;
+}
+
+.login {
+    color: white;
+    padding-top: 38px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.Username {
+    background-color:  #2C405A;
+    padding: 10px;
+    border-style: solid;
+    border-color: #3F536E;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 185;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Password {
+    background-color:  #2C405A;
+    padding: 10px;
+    border-style: solid;
+    border-color: #3F536E;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    background-color: lawngreen;
+    color: floralwhite;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .1s linear ;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #333
+}
+
+.reminder {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 31px;
+    color:#0093EE;
+    text-decoration: none;
+}
+
+.question-mark {
+
+
+}
+
+
+.btn_question {
+   display: inline-block;
+    position: absolute;
+    background-color: lawngreen;
+    color: floralwhite;
+    margin: 360px;
+    margin-left: 600px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 5px;
+   text-align: center;
+}
